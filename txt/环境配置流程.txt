@@ -1,0 +1,25 @@
+vue init webpack cms
+npm i vuex
+npm i stylus		//lang='stylus'
+npm i stylus-loader@3.0.2
+npm i element-ui
+npm i axios
+
+初始化src
+
+src----pages 一级路由显示页面
+src----views 二级路由显示页面
+src----common 通用组件
+src----filters
+src----axios----axios.js  index.js
+src----stylus----stylus.styl index.styl   (@import)
+
+src----store---index.js (state getters mutations actions modules)
+src----store----modules----模块文件夹
+src----router----index.js 配置路由用懒加载
+
+main.js---- 导入store ---- 挂载到Vuex
+main.js---- 导入element-ui----引入element的css ---Vue使用element-ui
+
+
+App.vue 添加路由页面显示出口  import引入  components注册组件  
